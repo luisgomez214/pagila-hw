@@ -2,9 +2,8 @@
  * Use a JOIN to order the countries by most profitable,
  * where the profit is the total amount that all customers from that country have payed.
  * Use tables payment, rental, customer, address, city, and country.
- * Order by country alphabetically.
+ * Order by country alphabetically. FIX 
  */
-
 select country, sum(amount) as profit
 from payment
 join rental on payment.rental_id = rental.rental_id
