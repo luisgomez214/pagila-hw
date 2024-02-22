@@ -3,4 +3,7 @@
  * Order results alphabetically.
  */
 
-select last_name from actor where last_name ilike '%li%' order by last_name; 
+select last_name
+from actor
+where last_name ilike '%LI%'
+order by last_name;

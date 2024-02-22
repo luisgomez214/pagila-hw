@@ -3,5 +3,7 @@
  * Order the results from low to hi.
  */
 
-SELECT actor_id FROM actor WHERE first_name ILIKE 'J%' ORDER BY actor_id;
-
+select actor_id
+from actor
+where first_name ilike 'j%'
+order by actor_id;

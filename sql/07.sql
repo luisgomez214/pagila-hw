@@ -4,7 +4,7 @@
  */
 
 select last_name, count(*) as last_name_count
-from actor 
+from actor
 group by last_name
 having count(*) >= 2
-order by count(*) desc; 
+order by count(*) desc;
